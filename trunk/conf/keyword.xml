@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<KeyList>
+	<ORG>
+		<word type="subaltern">公司</word>
+		<word>总公司</word>
+		<word type="subaltern">分公司</word>
+		<word type="subaltern">子公司</word>
+		<word type="subaltern">有限责任公司</word>
+		<word type="subaltern">有限公司</word>
+		<word>集团</word>
+		<word>厂</word>
+		<word type="subaltern">分厂</word>
+		<word>店</word>
+		<word>研究所</word>
+		<word>交易所</word>
+		<word>研究院</word>
+	</ORG>
+	<DATE>
+		<word type="prefix">公元</word>
+		<word type="prefix">公元前</word>
+		<word>世纪</word>
+		<word>年</word>
+		<word>月</word>
+		<word>日</word>
+		<word>时</word>
+		<word>点</word>
+	</DATE>
+	<LOC>
+		<word>洲</word>
+		<word>国</word> 
+		<word>省</word>
+		<word>市</word>
+		<word>县</word>
+		<word>区</word>
+		<word>镇</word>
+		<word>村</word>
+		<word>园</word>
+		<word>苑</word>
+		<word>街</word>	
+		<word>路</word>
+		<word>道</word>
+		<word>广场</word>
+		<word>市场</word>
+		<word>大厦</word>
+		<word>楼</word>
+		<word>号</word>
+		<word>#</word>
+		<word>室</word>
+	</LOC>
+	<CURRENCY>
+		<word>元</word>
+		<word>人民币</word>
+		<word>港元</word>
+		<word>港币</word>
+		<word>美元</word>
+		<word>欧元</word>
+		<word>日元</word>
+		<word>日圆</word>
+		<word>英镑</word>
+		<word>卢布</word>
+		<word>马克</word>
+		<word>加元</word>
+	</CURRENCY>
+</KeyList>

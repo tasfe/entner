@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Illegal>
+ 
+	<Instance>
+		<Object>企业</Object>
+		<Attribute>REG_DATE</Attribute>
+		<Condition>Different X</Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第7条</Item>
+	</Instance>
+	<Instance>
+		<Object>有限责任公司</Object>
+		<Attribute>NAME</Attribute>
+		<Condition>Not ( Contain 有限责任公司 Or Contain 有限公司 ) </Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第8条</Item>
+	</Instance>
+	<Instance>
+		<Object>股份有限公司</Object>
+		<Attribute>NAME</Attribute>
+		<Condition>Not ( Contain 股份有限公司 Or ( Contain 股份公司 ) </Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第8条</Item>
+	</Instance>
+	<Instance>
+		<Object>有限责任公司</Object>
+		<Attribute>REG_ASSEST</Attribute>
+		<Condition>LessThan 3万 </Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第26条</Item>
+	</Instance>
+	<Instance>
+		<Object>一人有限责任公司</Object>
+		<Attribute>REG_ASSEST</Attribute>
+		<Condition>LessThan 10万</Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第26条</Item>
+	</Instance>
+	<Instance>
+		<Object>股份有限公司</Object>
+		<Attribute>REG_ASSEST</Attribute>
+		<Condition>LessThan 500万</Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第81条</Item>
+	</Instance>
+	 
+	<Instance>
+		<Object>企业</Object>
+		<Attribute>BUSSINESS_SCOPE</Attribute>
+		<Condition>Not In X</Condition>
+		<Law>中华人民共和国公司法</Law>
+		<Item>第12条</Item>
+	</Instance>
+ 
+	<Instance>
+		<Object>合伙企业</Object>
+		<Attribute>NAME</Attribute>
+		<Condition>Contain 有限  OR Contain 有限责任 </Condition>
+		<Law>中华人民共和国个人独资企业法</Law>
+		<Item>第5条,第66条</Item>
+	</Instance>
+ 
+ 
+	<Instance>
+		<Object>商标</Object>
+		<Attribute>CATEGORY</Attribute>
+		<Condition>Different X</Condition>
+		<Law>中华人民共和国商标法</Law>
+		<Item>第19条,第20条,第21条</Item>
+	</Instance>
+ 
+</Illegal>
