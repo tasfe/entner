@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Extract>
+	<KeyWord>
+		<word type="Vc">创办</word>
+		<word type="Vc">创建</word>
+		<word type="Vc">创立</word>
+		<word type="Vc">始创</word>
+		<word type="Vc">初创</word>
+		<word type="Vc">建立</word>
+		<word type="Vc">成立</word>
+		<word type="Vc">注册</word>
+		
+		<word type="Vm">出资</word>
+		<word type="Vm">投资</word>
+		<word type="Vm">融资</word>
+
+		<word type="Ve">从事</word>
+		<word type="Ve">专营</word>
+		<word type="Ve">专注</word>
+		
+		<word type="Np">董事长</word>
+		<word type="Np">总裁</word>
+		<word type="Np">CEO</word>
+		<word type="Np">法人</word>
+	</KeyWord>
+	<Template>
+		<RegAssets>
+			<Item>"注册"+"资金"+(为)+[/ne_cur]</Item>
+			<Item>"注册"+"资本"+(为)+[/ne_cur]</Item>
+			<Item>Vm+[/ne_cur]+Vc+/ne_org</Item>
+			<Item>Vm+[/ne_cur]+Vc+/nes_org</Item>
+		</RegAssets>
+		<RegDate>
+			<Item>Vc+"于"+[/ne_date]</Item>
+			<Item>/p+[/ne_date]+Vc</Item>
+		</RegDate>
+		<Scope>
+			<Item>"经营"+"范围"+(包括)+[*]+/wj</Item>
+			<Item>"经营"+"范围"+(包括)+[*]+/wd</Item>
+			<Item>"业务"+"范围"+(包括)+[*]+/wj</Item>
+			<Item>"业务"+"范围"+(包括)+[*]+/wd</Item>
+			<Item>"集"+[*]+"为"+"一体"</Item>
+			<Item>Ve+(于)+[*]+/wd</Item>
+			<Item>Ve+(于)+[*]+/wj</Item>
+		</Scope>
+		<Location>
+			<Item>"坐落"+"于"+(/wp)+[/ne_loc]</Item>
+			<Item>"座落"+"于"+(/wp)+[/ne_loc]</Item>
+			<Item>"地址"+(/wp)+[/ne_loc]</Item>
+			<Item>"地"+"址"+(/wp)+[/ne_loc]</Item>
+			<Item>Vc+"于"+(/wp)+[/ne_loc]</Item>
+			<Item>/ne_org+(/wp)+[/ne_loc]</Item>
+			<Item>/nes_org+(/wp)+[/ne_loc]</Item>
+		</Location>
+		<Brand>
+			<Item>"生产"+"厂家"+/wp+[*]</Item>
+			<Item>"生产商"+/wp+[*]</Item>
+			<Item>"品牌"+/wp+[*]</Item>
+		</Brand>
+		<Product>
+			<Item>"商品"+"名称"+/wp+[*]</Item>
+			<Item>"产品"+"名称"+/wp+[*]</Item>
+		</Product>
+		<BrandOwner>
+			<Item>"生产"+"厂家"+/wp+[*]</Item>
+		</BrandOwner>
+		<!--[]为抽取项；""必须的词； / 词性或实体标注；（）可选词；*若干个(大于0)词；?一个任意词； Vm、Vc、Ve关键词类别-->
+	</Template>
+</Extract>

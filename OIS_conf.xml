@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<OIS>
+	<ConfigPath>conf</ConfigPath>
+	<KeyWord>keyword.xml</KeyWord>
+	<!--实体识别关键词-->
+	<Rule>rule.xml</Rule><!--企业名称词性规则集-->
+	<Extract>ExtractTemplate.xml</Extract><!--信息提取模板-->
+	<Product>product.txt</Product>
+	<IllegalLib>illegallib.xml</IllegalLib>
+</OIS>
