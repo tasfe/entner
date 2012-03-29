@@ -17,7 +17,7 @@ import ois.ner.constant.XMLConfig;
  * Named Entity Analyzer
  * This class reads words from a PipeReader connected to PipWriter from WordSegment.
  * NEAnalyzer can recognize entities such as time, location, currency, enterprise. 
- * @author wxt
+ * @author zhzhl
  * 
  *************************************************************************************/
 

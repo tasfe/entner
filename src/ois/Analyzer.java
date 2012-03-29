@@ -20,7 +20,7 @@ import ois.xmlParser.HTMLParser;
  * 
  * 网页处理，线程类
  * 调用分词模块和信息抽取模块完成对一个网页的处理
- * @author wxt
+ * @author zhzhl
  * 
  *********************************************************/
 public class Analyzer extends HTMLParser implements Runnable {

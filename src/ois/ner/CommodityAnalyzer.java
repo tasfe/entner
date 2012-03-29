@@ -18,7 +18,7 @@ import ois.ner.hmm.Observation;
 /******************************************
  *
  * 商品识别和分类
- * @author wxt
+ * @author zhzhl
  *
  ******************************************/
 public class CommodityAnalyzer {

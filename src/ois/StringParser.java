@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /******************************************
  * 
  * 字符串解析器，包含句子分割、全角转半角等功能
- * @author wxt
+ * @author zhzhl
  *
  ******************************************/
 public class StringParser {

@@ -10,7 +10,7 @@ import java.io.IOException;
 /************************************
  * 
  * 参数保存文件的操作类，用于保存和读取参数
- * @author wxt
+ * @author zhzhl,wxt
  *
  ************************************/
 public class FileParser {
