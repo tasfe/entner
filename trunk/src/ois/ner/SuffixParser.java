@@ -12,7 +12,7 @@ import org.dom4j.Element;
 /***************************************
  * 
  * 实体名称触发词解析器
- * @author wxt
+ * @author zhzhl
  * 
  ***************************************/
 public class SuffixParser extends XMLParser {

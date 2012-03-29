@@ -9,6 +9,12 @@ import java.util.ArrayList;
 import ois.ner.ICTCLASFactory;
 
 
+/**********************************
+ * 
+ * HMM模型学习函数
+ * @author zhzhl,wxt
+ *
+ **********************************/
 public class HmmLearner implements Runnable {
 	HMM hmm=new HMM(HmmConfig.States.length, HmmConfig.Observes.length);
 	ArrayList<Observation>oseq;

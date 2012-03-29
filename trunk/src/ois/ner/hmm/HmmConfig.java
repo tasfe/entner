@@ -3,7 +3,7 @@ package ois.ner.hmm;
 /**********************************
  * 
  * HMM参数设置，以及本地数据文件路径
- * @author wxt
+ * @author zhzhl,wxt
  *
  **********************************/
 public class HmmConfig {

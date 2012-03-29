@@ -20,7 +20,7 @@ import org.dom4j.Element;
 /*************************************
  * 
  * 企事业单位名称词性规则分析和匹配
- * @author wxt
+ * @author zhzhl
  * 
  *************************************/
 public class RuleParser extends XMLParser {
